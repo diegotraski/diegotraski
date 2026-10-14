@@ -6,6 +6,8 @@
 
 Graduado en Ingeniería de la Salud por la Universidad de Burgos. Me gusta construir herramientas útiles de principio a fin: desde el sensor que captura la señal hasta la app web que la convierte en información.
 
+<sub>🇬🇧 Health Engineering graduate (University of Burgos) building end-to-end tools, from biomedical sensors and machine learning to full-stack web apps.</sub>
+
 </div>
 
 ---
@@ -15,8 +17,8 @@ Graduado en Ingeniería de la Salud por la Universidad de Burgos. Me gusta const
 | Proyecto | Descripción | Tecnologías |
 |---|---|---|
 | 🫀 **[ecg-monitor-tfg](https://github.com/diegotraski/ecg-monitor-tfg)** | **Trabajo Fin de Grado.** Monitor cardíaco con Arduino y app web que muestra el ECG en tiempo real y clasifica latidos con Random Forest (97,5 % en MIT-BIH). | Python · Streamlit · scikit-learn · Arduino |
-| ⚔️ **[elektro-scouting-new](https://github.com/diegotraski/elektro-scouting-new)** | Plataforma de scouting competitivo de Clash of Clans: estadísticas de ataques, combos y rendimiento por equipo. [Demo →](https://elektro-scouting-new-xovn.vercel.app) | Next.js · TypeScript · Supabase · Recharts |
-| 🐠 **[ACUARIO-NFC](https://github.com/diegotraski/ACUARIO-NFC)** | Registro del mantenimiento del acuario con etiquetas NFC: un toque con el móvil y queda guardado. [Demo →](https://acuario-nfc.vercel.app) | Next.js · React · Supabase · PWA |
+| ⚔️ **[elektro-scout](https://github.com/diegotraski/elektro-scout)** | Plataforma de scouting competitivo de Clash of Clans: estadísticas de ataques, combos y rendimiento por equipo. [Demo →](https://elektro-scouting-new-xovn.vercel.app) | Next.js · TypeScript · Supabase · Recharts |
+| 🐠 **[acuario-nfc](https://github.com/diegotraski/acuario-nfc)** | Registro del mantenimiento del acuario con etiquetas NFC: un toque con el móvil y queda guardado. [Demo →](https://acuario-nfc.vercel.app) | Next.js · React · Supabase · PWA |
 | 🎯 **[surebet](https://github.com/diegotraski/surebet)** | Detector de arbitraje deportivo con APIs de cuotas, cálculo de stake óptimo y ejecución automática. | Next.js · TypeScript · Supabase · Vercel Cron |
 
 ## 🛠️ Tecnologías
