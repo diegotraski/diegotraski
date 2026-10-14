@@ -19,7 +19,7 @@ Convierto datos sanitarios en información útil: desde la señal de un sensor o
 
 ## 📊 Proyectos de datos y salud
 
-### 🏥 [Observatorio de la Sanidad en Castilla y León](https://github.com/diegotraski/observatorio-sanidad-cyl)
+### 🏥 [Observatorio de la Sanidad en Castilla y León](https://github.com/diegotraski/observatorio-sanidad-cyl) · [Demo](https://observatorio-sanidad-cyl-tmj3fejzr594gvoczadj5x.streamlit.app/)
 
 Análisis de las listas de espera de los 14 hospitales públicos de Castilla y León con datos oficiales de Sacyl y del INE (2018-2026).
 
