@@ -29,7 +29,7 @@ Análisis de las listas de espera de los 14 hospitales públicos de Castilla y L
 
 `Python` `pandas` `SQL (SQLite)` `Jupyter` `Plotly` `Streamlit` `statsmodels` `IA generativa` `pytest`
 
-### 🫀 [Monitor cardíaco con clasificación de latidos](https://github.com/diegotraski/ecg-monitor-tfg) · *Trabajo Fin de Grado*
+### 💓 [Monitor cardíaco con clasificación de latidos](https://github.com/diegotraski/ecg-monitor-tfg) · *Trabajo Fin de Grado*
 
 Monitor de ECG de bajo coste: un Arduino capta la señal y una app web la muestra en tiempo real y clasifica los latidos con **Random Forest (97,5 % de exactitud en MIT-BIH)**. Las sesiones se guardan en SQLite y se exportan a CSV.
 
