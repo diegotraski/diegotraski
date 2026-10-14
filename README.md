@@ -50,7 +50,6 @@ Análisis biomecánico por vídeo para fisioterapia: marcha, sentadilla, levanta
 | ⛽ **[GasolinaNeta](https://github.com/diegotraski/gasolinaneta)** · [Demo](https://gasolinaneta.vercel.app) | Compara gasolineras y puntos de recarga por **ahorro neto** con los precios oficiales del Ministerio (11.000+ estaciones) y rutas reales. | Next.js · TypeScript · Supabase · MapLibre |
 | ⚔️ **[Elektro Scout](https://github.com/diegotraski/elektro-scout)** · [Demo](https://elektro-scouting-new-xovn.vercel.app) | Convierte cientos de ataques de torneos de Clash of Clans en estadísticas de rendimiento por ejército, jugador y equipo. | Next.js · Supabase · Recharts |
 | 🐠 **[Acuario NFC](https://github.com/diegotraski/acuario-nfc)** · [Demo](https://acuario-nfc.vercel.app/?demo=1) | Registra el mantenimiento del acuario tocando etiquetas NFC con el móvil. | Next.js · Supabase · PWA |
-| 🎯 **[Surebet Finder](https://github.com/diegotraski/surebet)** | Cruza cuotas de varias fuentes, empareja eventos y calcula el reparto óptimo de apuestas. Se ejecuta automáticamente cada 30 min. | Next.js · Supabase · Vercel Cron |
 
 ---
 
