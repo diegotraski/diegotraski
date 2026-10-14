@@ -2,70 +2,105 @@
 
 # Hola, soy Diego Trascasa García 👋
 
-**Ingeniero de la Salud · Desarrollo de software · Machine Learning aplicado**
+### Analista de datos · Ingeniero de la Salud
 
-Graduado en Ingeniería de la Salud por la Universidad de Burgos. Me gusta construir herramientas útiles de principio a fin: desde el sensor que captura la señal hasta la app web que la convierte en información.
+Convierto datos sanitarios en información útil: desde la señal de un sensor o un Excel oficial desordenado hasta un panel interactivo que cualquiera puede entender.
 
-<sub>🇬🇧 Health Engineering graduate (University of Burgos) building end-to-end tools, from biomedical sensors and machine learning to full-stack web apps.</sub>
+**Busco mi primer puesto como analista de datos, idealmente en el sector sanitario.**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Diego_Trascasa_García-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/diego-trascasa-garc%C3%ADa-b171382b2/)
+![Ubicación](https://img.shields.io/badge/Burgos,_España-555555?style=for-the-badge&logo=googlemaps&logoColor=white)
+
+<sub>🇬🇧 Health Engineering graduate and IBM-certified Data Analyst. I turn healthcare data into clear, usable insight with Python, SQL and interactive dashboards. Looking for my first data analyst role, ideally in healthcare.</sub>
 
 </div>
 
 ---
 
-## 🚀 Proyectos destacados
+## 📊 Proyectos de datos y salud
 
-| Proyecto | Descripción | Tecnologías |
+### 🏥 [Observatorio de la Sanidad en Castilla y León](https://github.com/diegotraski/observatorio-sanidad-cyl)
+
+Análisis de las listas de espera de los 14 hospitales públicos de Castilla y León con datos oficiales de Sacyl y del INE (2018-2026).
+
+- **Pipeline reproducible:** descarga 56 Excel trimestrales, los limpia con controles de calidad y los carga en una base de datos SQL con un solo comando.
+- **Hallazgos:** la lista quirúrgica ha crecido un **33 % en el primer semestre de 2026**, y Burgos tiene un **29 % más de espera por habitante** que la media.
+- **Previsión y dashboard:** previsión a 12 meses validada frente a modelos simples, y un dashboard con mapa y un **asistente de IA que responde preguntas convirtiéndolas en SQL** de solo lectura.
+
+`Python` `pandas` `SQL (SQLite)` `Jupyter` `Plotly` `Streamlit` `statsmodels` `IA generativa` `pytest`
+
+### 🫀 [Monitor cardíaco con clasificación de latidos](https://github.com/diegotraski/ecg-monitor-tfg) · *Trabajo Fin de Grado*
+
+Monitor de ECG de bajo coste: un Arduino capta la señal y una app web la muestra en tiempo real y clasifica los latidos con **Random Forest (97,5 % de exactitud en MIT-BIH)**. Las sesiones se guardan en SQLite y se exportan a CSV.
+
+`Python` `scikit-learn` `Streamlit` `SQLite` `Arduino` `Procesado de señales`
+
+### 🦵 [MotionClin](https://github.com/diegotraski/motionclin) · [Demo](https://diegotraski.github.io/motionclin/)
+
+Análisis biomecánico por vídeo para fisioterapia: marcha, sentadilla, levantarse de la silla y equilibrio. Detecta 33 puntos del cuerpo con visión artificial, muestra cada métrica con su incertidumbre y valores de referencia publicados, compara sesiones con **t de Welch y d de Cohen** y genera un informe en PDF.
+
+`JavaScript` `MediaPipe` `Visión artificial` `Estadística` `PWA`
+
+---
+
+## 🛠️ Aplicaciones con datos (de principio a fin)
+
+| Proyecto | Qué hace | Tecnologías |
 |---|---|---|
-| 🫀 **[ecg-monitor-tfg](https://github.com/diegotraski/ecg-monitor-tfg)** | **Trabajo Fin de Grado.** Monitor cardíaco con Arduino y app web que muestra el ECG en tiempo real y clasifica latidos con Random Forest (97,5 % en MIT-BIH). | Python · Streamlit · scikit-learn · Arduino |
-| 🦵 **[motionclin](https://github.com/diegotraski/motionclin)** | Análisis biomecánico por vídeo para fisioterapia: marcha, sentadilla, silla y equilibrio con visión artificial, estadística entre sesiones e informes PDF. [Demo →](https://diegotraski.github.io/motionclin/) | JavaScript · MediaPipe · Visión artificial |
-| ⚔️ **[elektro-scout](https://github.com/diegotraski/elektro-scout)** | Plataforma de scouting competitivo de Clash of Clans: estadísticas de ataques, combos y rendimiento por equipo. [Demo →](https://elektro-scouting-new-xovn.vercel.app) | Next.js · TypeScript · Supabase · Recharts |
-| 🐠 **[acuario-nfc](https://github.com/diegotraski/acuario-nfc)** | Registro del mantenimiento del acuario con etiquetas NFC: un toque con el móvil y queda guardado. [Demo →](https://acuario-nfc.vercel.app/?demo=1) | Next.js · React · Supabase · PWA |
-| 🎯 **[surebet](https://github.com/diegotraski/surebet)** | Detector de arbitraje deportivo con APIs de cuotas, cálculo de stake óptimo y ejecución automática. | Next.js · TypeScript · Supabase · Vercel Cron |
+| ⛽ **[GasolinaNeta](https://github.com/diegotraski/gasolinaneta)** · [Demo](https://gasolinaneta.vercel.app) | Compara gasolineras y puntos de recarga por **ahorro neto** con los precios oficiales del Ministerio (11.000+ estaciones) y rutas reales. | Next.js · TypeScript · Supabase · MapLibre |
+| ⚔️ **[Elektro Scout](https://github.com/diegotraski/elektro-scout)** · [Demo](https://elektro-scouting-new-xovn.vercel.app) | Convierte cientos de ataques de torneos de Clash of Clans en estadísticas de rendimiento por ejército, jugador y equipo. | Next.js · Supabase · Recharts |
+| 🐠 **[Acuario NFC](https://github.com/diegotraski/acuario-nfc)** · [Demo](https://acuario-nfc.vercel.app/?demo=1) | Registra el mantenimiento del acuario tocando etiquetas NFC con el móvil. | Next.js · Supabase · PWA |
+| 🎯 **[Surebet Finder](https://github.com/diegotraski/surebet)** | Cruza cuotas de varias fuentes, empareja eventos y calcula el reparto óptimo de apuestas. Se ejecuta automáticamente cada 30 min. | Next.js · Supabase · Vercel Cron |
 
-## 🛠️ Tecnologías
+---
 
-**Lenguajes**
+## 🧰 Herramientas
+
+**Análisis de datos**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
-![C++ (Arduino)](https://img.shields.io/badge/C++_(Arduino)-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![LaTeX](https://img.shields.io/badge/LaTeX-008080?style=flat-square&logo=latex&logoColor=white)
-
-**Datos y Machine Learning**
-
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
 ![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
+![Excel](https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white)
+
+**Visualización y dashboards**
+
+![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
-![MediaPipe](https://img.shields.io/badge/MediaPipe-0097A7?style=flat-square&logo=google&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat-square)
+![Recharts](https://img.shields.io/badge/Recharts-22B5BF?style=flat-square)
+![IBM Cognos](https://img.shields.io/badge/IBM_Cognos-052FAD?style=flat-square&logo=ibm&logoColor=white)
 
-**Web y backend**
+**Estadística y Machine Learning**
 
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![statsmodels](https://img.shields.io/badge/statsmodels-4051B5?style=flat-square)
+![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=flat-square&logo=scipy&logoColor=white)
+![IA generativa](https://img.shields.io/badge/IA_generativa-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
+
+**Bases de datos y desarrollo**
+
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
-
-**Hardware**
-
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![Arduino](https://img.shields.io/badge/Arduino-00878F?style=flat-square&logo=arduino&logoColor=white)
 
-## 🎯 Qué me interesa
+---
 
-- 🏥 Tecnología sanitaria y señales biomédicas
-- 🤖 Machine Learning aplicado a problemas reales
-- 🌐 Aplicaciones web rápidas de desplegar, con datos en la nube
-- 📊 Visualización de datos y paneles de análisis
+## 🎓 Formación
+
+- **IBM Data Analyst Professional Certificate** (2026): Python, pandas, SQL, visualización, dashboards, Excel/Cognos e IA generativa.
+- **Grado en Ingeniería de la Salud**, Universidad de Burgos (2020-2025). TFG: monitor cardíaco con clasificación de latidos mediante Machine Learning.
 
 ---
 
 <div align="center">
 
-📫 ¿Hablamos? Escríbeme a través de GitHub o mira mis proyectos arriba.
+📫 **¿Hablamos?** Escríbeme por [LinkedIn](https://www.linkedin.com/in/diego-trascasa-garc%C3%ADa-b171382b2/).
 
 </div>
