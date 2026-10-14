@@ -17,6 +17,7 @@ Graduado en Ingeniería de la Salud por la Universidad de Burgos. Me gusta const
 | Proyecto | Descripción | Tecnologías |
 |---|---|---|
 | 🫀 **[ecg-monitor-tfg](https://github.com/diegotraski/ecg-monitor-tfg)** | **Trabajo Fin de Grado.** Monitor cardíaco con Arduino y app web que muestra el ECG en tiempo real y clasifica latidos con Random Forest (97,5 % en MIT-BIH). | Python · Streamlit · scikit-learn · Arduino |
+| 🦵 **[motionclin](https://github.com/diegotraski/motionclin)** | Análisis biomecánico por vídeo para fisioterapia: marcha, sentadilla, silla y equilibrio con visión artificial, estadística entre sesiones e informes PDF. [Demo →](https://diegotraski.github.io/motionclin/) | JavaScript · MediaPipe · Visión artificial |
 | ⚔️ **[elektro-scout](https://github.com/diegotraski/elektro-scout)** | Plataforma de scouting competitivo de Clash of Clans: estadísticas de ataques, combos y rendimiento por equipo. [Demo →](https://elektro-scouting-new-xovn.vercel.app) | Next.js · TypeScript · Supabase · Recharts |
 | 🐠 **[acuario-nfc](https://github.com/diegotraski/acuario-nfc)** | Registro del mantenimiento del acuario con etiquetas NFC: un toque con el móvil y queda guardado. [Demo →](https://acuario-nfc.vercel.app/?demo=1) | Next.js · React · Supabase · PWA |
 | 🎯 **[surebet](https://github.com/diegotraski/surebet)** | Detector de arbitraje deportivo con APIs de cuotas, cálculo de stake óptimo y ejecución automática. | Next.js · TypeScript · Supabase · Vercel Cron |
@@ -39,6 +40,7 @@ Graduado en Ingeniería de la Salud por la Universidad de Burgos. Me gusta const
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![MediaPipe](https://img.shields.io/badge/MediaPipe-0097A7?style=flat-square&logo=google&logoColor=white)
 
 **Web y backend**
 
