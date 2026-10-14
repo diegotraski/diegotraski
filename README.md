@@ -37,9 +37,14 @@ Monitor de ECG de bajo coste: un Arduino capta la señal y una app web la muestr
 
 ### 🦵 [MotionClin](https://github.com/diegotraski/motionclin) · [Demo](https://diegotraski.github.io/motionclin/)
 
-Análisis biomecánico por vídeo para fisioterapia: marcha, sentadilla, levantarse de la silla y equilibrio. Detecta 33 puntos del cuerpo con visión artificial, muestra cada métrica con su incertidumbre y valores de referencia publicados, compara sesiones con **t de Welch y d de Cohen** y genera un informe en PDF.
+Del vídeo del móvil a un informe clínico, en el navegador y sin que el vídeo salga del dispositivo: marcha, sentadilla, levantarse de la silla y equilibrio.
 
-`JavaScript` `MediaPipe` `Visión artificial` `Estadística` `PWA`
+- **De la señal al dato:** 33 puntos del cuerpo por fotograma con visión artificial, filtrado de fase cero, detección de eventos y métricas por ciclo con su **media ± DE, n y fiabilidad**.
+- **Estadística con criterio clínico:** compara sesiones con **t de Welch y d de Cohen**, y solo habla de mejora si supera el cambio mínimo relevante. Referencias de laboratorio de **235 personas sanas** según edad y velocidad.
+- **Verificado y listo para validar:** error medio de **0,24 pasos/min** en cadencia con 30 sujetos simulados por prueba; protocolo de validación con Bland-Altman e ICC; 25 pruebas automáticas.
+- **Informes:** PDF técnico para el fisioterapeuta y de una página, con semáforo, para el paciente. App en español e inglés.
+
+`JavaScript` `MediaPipe` `Visión artificial` `Procesado de señales` `Estadística` `PWA`
 
 ---
 
