@@ -8,6 +8,8 @@ Convierto datos sanitarios en información útil: desde la señal de un sensor o
 
 **Busco mi primer puesto como analista de datos, idealmente en el sector sanitario.**
 
+[![Web](https://img.shields.io/badge/Web-diegotraski.github.io-B3223D?style=for-the-badge&logo=googlechrome&logoColor=white)](https://diegotraski.github.io)
+[![CV](https://img.shields.io/badge/CV-PDF-16202E?style=for-the-badge&logo=readdotcv&logoColor=white)](https://diegotraski.github.io/cv-diego-trascasa.pdf)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Diego_Trascasa_García-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/diego-trascasa-garc%C3%ADa-b171382b2/)
 ![Ubicación](https://img.shields.io/badge/Burgos,_España-555555?style=for-the-badge&logo=googlemaps&logoColor=white)
 
@@ -105,6 +107,6 @@ Del vídeo del móvil a un informe clínico, en el navegador y sin que el vídeo
 
 <div align="center">
 
-📫 **¿Hablamos?** Escríbeme por [LinkedIn](https://www.linkedin.com/in/diego-trascasa-garc%C3%ADa-b171382b2/).
+📫 **¿Hablamos?** Escríbeme por [LinkedIn](https://www.linkedin.com/in/diego-trascasa-garc%C3%ADa-b171382b2/) o a diego.tragar@gmail.com · Todo mi trabajo en [diegotraski.github.io](https://diegotraski.github.io)
 
 </div>
